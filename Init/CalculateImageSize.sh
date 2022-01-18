@@ -1,16 +1,12 @@
 #===================== TEST 1 ====================
-echo "====== TEST 1 "
-echo "Param"
+echo "====== Dataset 1"
+echo "Params"
 echo "Image size : 1024 X 1024"
-#Init data
+echo "==================="
 outputEXE=$(./exo1.out "1024" "1024")
 Correct_Output_Array=("1024.00" "3.00")
 
 Output_Array=($outputEXE)
-
-#for i in ${Output_Array[*]}; do
-#  echo $i
-#done
 
 # Test Length output
 if [ ${#Correct_Output_Array[@]} -ne ${#Output_Array[@]} ]; then
@@ -30,9 +26,10 @@ do
 done
 echo "Test 1 passed."
 #===================== TEST 2 ====================
-echo "====== TEST 2 "
+echo "====== Dataset 2"
+echo "Params"
 echo "Image size : 1024 X 1000"
-#Init data
+echo "==================="
 outputEXE=$(./exo1.out "1024" "1000")
 Correct_Output_Array=("1000.00" "2.92")
 

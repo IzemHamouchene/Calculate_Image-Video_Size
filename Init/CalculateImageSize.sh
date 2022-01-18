@@ -1,5 +1,6 @@
 #===================== TEST 1 ====================
 echo "====== TEST 1 "
+echo "Param"
 echo "Image size : 1024 X 1024"
 #Init data
 outputEXE=$(./exo1.out "1024" "1024")
@@ -14,6 +15,7 @@ Output_Array=($outputEXE)
 # Test Length output
 if [ ${#Correct_Output_Array[@]} -ne ${#Output_Array[@]} ]; then
        echo "Expected ${#Correct_Output_Array[@]} output lines but got ${#Output_Array[@]} lines"
+       echo "Test 1 failed."
        exit 1
 fi
 
@@ -22,10 +24,11 @@ for (( i="0"; i<${#Correct_Output_Array[@]}; i++ ))
 do
        if [ ${Correct_Output_Array[${i}]} != ${Output_Array[${i}]} ]; then
               echo "Expected '${Correct_Output_Array[${i}]}' but got : '${Output_Array[${i}]}'"
+              echo "Test 1 failed."
               exit 1
        fi
 done
-
+echo "Test 1 passed."
 #===================== TEST 2 ====================
 echo "====== TEST 2 "
 echo "Image size : 1024 X 1000"
@@ -42,6 +45,7 @@ Output_Array=($outputEXE)
 # Test Length output
 if [ ${#Correct_Output_Array[@]} -ne ${#Output_Array[@]} ]; then
        echo "Expected ${#Correct_Output_Array[@]} output lines but got ${#Output_Array[@]} lines"
+       echo "Test 2 failed."
        exit 1
 fi
 
@@ -50,8 +54,9 @@ for (( i="0"; i<${#Correct_Output_Array[@]}; i++ ))
 do
        if [ ${Correct_Output_Array[${i}]} != ${Output_Array[${i}]} ]; then
               echo "Expected '${Correct_Output_Array[${i}]}' but got : '${Output_Array[${i}]}'"
+              echo "Test 2 failed."
               exit 1
        fi
 done
-echo "All tests passed."
+echo "Test 2 passed."
 exit 0

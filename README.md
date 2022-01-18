@@ -21,10 +21,11 @@ Il vous est demandé d’écrire un programme en langage C qui calcule la taille
 Le programme reçoit deux paramètres en entrées (langeure et largeur) de l’image sous format string.
 
 ##### Paramètre de sortie
-Le programme doit afficher ((printf):  
+Le programme doit afficher (printf):  
 1. La taille de l’image niveau de gris  
 2. La taille de l’image couleur.  
-Les valeurs de sortie doivent être affichées avec deux chiffres après la virgule.
+
+_Les valeurs de sortie doivent être affichées avec deux chiffres après la virgule._
   
   
 ### Exercice 2 : Video size (CalculateVideo.c)
@@ -41,4 +42,4 @@ Le programme reçoit les paramètres suivants (ordonées):
 Le programme doit afficher ((printf):  
 1. La taille de la vidéo (la moitié du temps est en niveau de gris et l'autres moitié en couleur)  
   
-Les valeurs de sortie doivent être affichées avec deux chiffres après la virgule.
+_Les valeurs de sortie doivent être affichées avec deux chiffres après la virgule._

@@ -4,7 +4,7 @@
 Le but de ce TP est de mettre en pratique les notions apprises durant le [cours](https://canvas.instructure.com/courses/4077355/files/164844328?module_item_id=59396783) pour le calcul des images niveau de gris, couleurs et vidéo.
 
 
-`Pour rappel`
+**Pour rappel**  
 Chaque pixel d’une image niveau de gris est codé sur 8 bits.
 Pour la conversion 
 

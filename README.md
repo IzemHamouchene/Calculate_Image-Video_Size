@@ -6,12 +6,12 @@ Le but de ce TP est de mettre en pratique les notions apprises durant le [cours]
 
 **Pour rappel**  
 Chaque pixel d’une image niveau de gris est codé sur 8 bits.
-Pour la conversion 
-
-⋅⋅* 1 octet = 8 bits
-⋅⋅* 1 ko = 1024 octet
-⋅⋅* 1 mo = 1024 ko
-⋅⋅* 1 go = 1024 mo
+Pour la conversion  
+  
+⋅..*octet = 8 bits
+..*1 ko = 1024 octet
+⋅..*1 mo = 1024 ko
+..*1 go = 1024 mo
 
 ### Exercice 1 : Image size (CalculateImageSize.c)
 

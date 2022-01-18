@@ -17,10 +17,10 @@ Pour la conversion
 
 Il vous est demandé d’écrire un programme en langage C qui calcule la taille d’une image niveau de gris et couleur.
 
-##### Paramètre d’entrées
+##### Paramètre d’entrées (2)
 Le programme reçoit deux paramètres en entrées (langeure et largeur) de l’image sous format string.
 
-##### Paramètre de sortie
+##### Paramètre de sortie (2)
 Le programme doit afficher (printf):  
 1. La taille de l’image niveau de gris  
 2. La taille de l’image couleur.  
@@ -32,13 +32,13 @@ _Les valeurs de sortie doivent être affichées avec deux chiffres après la vir
   
 Il vous est demandé d’écrire un programme en langage C qui calcule la taille d'une vidéo qui comprend la moitié du temps avec des images niveau de gris et l'autre moitié avec des images  couleur. Exemple : si la vidéo dure 4 minutes, 2 minutes sont en niveau de gris et 2 sont n couleur.  
   
-##### Paramètre d’entrées
+##### Paramètre d’entrées (3)
 Le programme reçoit les paramètres suivants (ordonées):  
 1. Taille de l'image en niveau de gris (en ko)  
 2. Durée de la vidéo (en seconde)  
 3. FPS (Frame Per Second)  
   
-##### Paramètre de sortie
+##### Paramètre de sortie (1)
 Le programme doit afficher (printf):  
 1. La taille de la vidéo (la moitié du temps est en niveau de gris et l'autres moitié en couleur)  
   

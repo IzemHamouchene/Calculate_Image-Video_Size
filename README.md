@@ -8,6 +8,7 @@ Le but de ce TP est de mettre en pratique les notions apprises durant le [cours]
 Chaque pixel d’une image niveau de gris est codé sur 8 bits.
 Pour la conversion  
   
+⋅⋅* Unordered sub-list. 
 ..* octet = 8 bits  
 ..*1 ko = 1024 octet  
 ..*1 mo = 1024 ko  
@@ -22,3 +23,7 @@ Le programme reçoit deux paramètres en entrées (langeure et largeur) de l’i
 
 ##### Paramètre de sortie
 Le programme doit afficher la taille de l’image niveau de gris et la taille de l’image couleur (à afficher deux chiffres après la virgule).
+
+
+
+

@@ -3,7 +3,7 @@ cleanExo1:
 cleanExo2:
 	rm Init/exo2.out
 test1: 
-	gcc CalculateSize01.c -o Init/exo1.out
+	gcc CalculateImageSize.c -o Init/exo1.out
 	(cd Init/; bash CalculateImageSize.sh)
 	cleanExo1
 test2:	

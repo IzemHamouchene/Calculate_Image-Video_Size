@@ -39,7 +39,7 @@ Le programme reçoit les paramètres suivants (ordonées):
 3. FPS (Frame Per Second)  
   
 ##### Paramètre de sortie
-Le programme doit afficher ((printf):  
+Le programme doit afficher (printf):  
 1. La taille de la vidéo (la moitié du temps est en niveau de gris et l'autres moitié en couleur)  
   
 _Les valeurs de sortie doivent être affichées avec deux chiffres après la virgule._

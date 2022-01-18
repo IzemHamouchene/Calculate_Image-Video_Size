@@ -25,6 +25,7 @@ do
        fi
 done
 echo "Test 1 passed."
+echo " "
 #===================== TEST 2 ====================
 echo "====== Dataset 2"
 echo "Params"

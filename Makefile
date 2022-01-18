@@ -8,6 +8,6 @@ test1:
 	cleanExo1
 test2:	
 	gcc CalculateVideo.c -o Init/exo2.out
-	(cd Init/; bash CalculateVdeoSize.sh)
+	(cd Init/; bash CalculateVideoSize.sh)
 	cleanExo2
 	

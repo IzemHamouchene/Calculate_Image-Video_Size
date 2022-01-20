@@ -15,7 +15,7 @@ Pour la conversion
 
 ### Exercice 1 : Image size (CalculateImageSize.c)
 
-Il vous est demandé d’écrire un programme en langage C qui calcule la taille d’une image niveau de gris et couleur.
+Il vous est demandé d’écrire un programme en langage C qui calcule la taille d’une image niveau de gris (**en ko**) et couleur (**en mo**).  
 
 ##### Paramètre d’entrées (2)
 Le programme reçoit deux paramètres en entrées (langeure et largeur) de l’image sous format string.
@@ -34,12 +34,12 @@ Il vous est demandé d’écrire un programme en langage C qui calcule la taille
   
 ##### Paramètre d’entrées (3)
 Le programme reçoit les paramètres suivants (ordonées):  
-1. Taille de l'image en niveau de gris (en ko)  
+1. Taille de l'image en niveau de gris (**en ko**)  
 2. Durée de la vidéo (en seconde)  
 3. FPS (Frame Per Second)  
   
 ##### Paramètre de sortie (1)
 Le programme doit afficher (printf):  
-1. La taille de la vidéo (la moitié du temps est en niveau de gris et l'autres moitié en couleur)  
+1. La taille de la vidéo (la moitié du temps est en niveau de gris et l'autres moitié en couleur)(**en go**)  
   
 _Les valeurs de sortie doivent être affichées avec deux chiffres après la virgule._

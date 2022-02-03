@@ -6,7 +6,7 @@ echo "Video length : 20 s"
 echo "FPS : 30"
 echo "==================="
 outputEXE=$(./exo2.out "2048" "20" "30")
-Correct_Output_Array=("1200.00")
+Correct_Output_Array=("2.34")
 
 Output_Array=($outputEXE)
 
@@ -36,7 +36,7 @@ echo "Video length : 30 s"
 echo "FPS : 30"
 echo "==================="
 outputEXE=$(./exo2.out "1000" "30" "30")
-Correct_Output_Array=("878.90")
+Correct_Output_Array=("1.71")
 
 Output_Array=($outputEXE)
 
